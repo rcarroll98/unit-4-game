@@ -65,7 +65,7 @@ function startGame() {
         darthmaul.isSelectedChar = "no";
         jarjarbinks.isSelectedChar = "no";
         obiwan.isSelectedChar = "no";
-        $("enemies-available").html(lukeskywalker.html + darthmaul.html + obiwan.html + jarjarbinks.html)
+        $("#enemies-available").html(lukeskywalker.html + darthmaul.html + obiwan.html + jarjarbinks.html)
     })
 
     $("#darthmaul").click(function() {
@@ -74,7 +74,7 @@ function startGame() {
         darthmaul.isSelectedChar = "no";
         jarjarbinks.isSelectedChar = "no";
         obiwan.isSelectedChar = "no";
-        $("enemies-available").html(lukeskywalker.html + obiwan.html + jarjarbinks.html + darthsidious.html)
+        $("#enemies-available").html(lukeskywalker.html + obiwan.html + jarjarbinks.html + darthsidious.html)
     })
 
     $("#lukeskywalker").click(function() {
@@ -83,7 +83,7 @@ function startGame() {
         jarjarbinks.isSelectedChar = "no";
         obiwan.isSelectedChar = "no";
         darthmaul.isSelectedChar = "no";
-        $("enemies-available").html( darthmaul.html + obiwan.html + jarjarbinks.html + darthsidious.htm)
+        $("#enemies-available").html( darthmaul.html + obiwan.html + jarjarbinks.html + darthsidious.htm)
     })
 
     $("#obiwan").click(function() {
@@ -92,7 +92,7 @@ function startGame() {
         darthmaul.isSelectedChar = "no";
         jarjarbinks.isSelectedChar = "no";
         darthmaul.isSelectedChar = "no";
-        $("enemies-available").html(lukeskywalker.html + darthmaul.html + jarjarbinks.html + darthsidious.htm)
+        $("#enemies-available").html(lukeskywalker.html + darthmaul.html + jarjarbinks.html + darthsidious.htm)
     })
 
     $("#jarjar").click(function() {
@@ -101,7 +101,7 @@ function startGame() {
         darthmaul.isSelectedChar = "no";
         obiwan.isSelectedChar = "no";
         darthmaul.isSelectedChar = "no";
-        $("enemies-available").html(lukeskywalker.html + darthmaul.html + obiwan.html + darthsidious.htm)
+        $("#enemies-available").html(lukeskywalker.html + darthmaul.html + obiwan.html + darthsidious.htm)
     })
 
     //Makes it so a defender can only be selected if the defender
